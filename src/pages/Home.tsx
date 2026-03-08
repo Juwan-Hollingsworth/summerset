@@ -102,7 +102,7 @@ export const Home: React.FC = () => {
               className="relative z-10 rounded-3xl overflow-hidden shadow-2xl"
             >
               <img 
-                src="https://picsum.photos/seed/view/800/1000" 
+                src="/home-sec-02.png" 
                 alt="The View" 
                 className="w-full h-auto"
                 referrerPolicy="no-referrer"
