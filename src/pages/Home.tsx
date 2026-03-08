@@ -12,7 +12,7 @@ export const Home: React.FC = () => {
         {/* Video Background Placeholder */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://picsum.photos/seed/jamaica-hillside/1920/1080" 
+            src="/home-hero.png" 
             alt="Hillside Jamaica" 
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
