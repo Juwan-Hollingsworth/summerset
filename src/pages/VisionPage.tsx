@@ -6,22 +6,22 @@ const GALLERY_ITEMS = [
   {
     id: 1,
     title: "The Ocean View",
-    current: "https://picsum.photos/seed/ocean-current/800/600",
-    concept: "https://picsum.photos/seed/ocean-concept/800/600",
+    current: "/first_sec.jpg",
+    concept: "/first_sec2.jpg",
     description: "Experience the raw beauty of the Caribbean coastline from your future balcony."
   },
   {
     id: 2,
     title: "Somerset Estates at Greenpark",
-    current: "https://picsum.photos/seed/hill-current/800/600",
-    concept: "https://picsum.photos/seed/hill-concept/800/600",
+    current: "/second_sec.jpg",
+    concept: "/second_sec2.jpg",
     description: "Modern architectural concepts designed to blend seamlessly with the natural topography."
   },
   {
     id: 3,
     title: "Tropical Gardens",
-    current: "https://picsum.photos/seed/garden-current/800/600",
-    concept: "https://picsum.photos/seed/garden-concept/800/600",
+    current: "/thirs_sec.jpg",
+    concept: "/third_sec2.jpg",
     description: "Lush landscaping plans that prioritize native flora and sustainable water management."
   }
 ];

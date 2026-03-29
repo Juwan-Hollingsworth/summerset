@@ -79,10 +79,10 @@ export const Footer: React.FC = () => {
 
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-[10px] uppercase tracking-widest text-white/20">
-            © 2026 Somerset at Greenpark. All Rights Reserved. | Powered by CyBrWerks.io
+            © 2026 Somerset at Greenpark. All Rights Reserved. | Powered by CybrWerks.io
           </p>
           <p className="text-[10px] uppercase tracking-widest text-white/20">
-            Designed for Excellence
+            Intelligent Engineering.
           </p>
         </div>
       </div>

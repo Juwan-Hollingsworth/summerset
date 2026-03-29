@@ -34,51 +34,47 @@ export const MapPage: React.FC = () => {
           <InteractiveMap />
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
-          <div className="lg:col-span-2 space-y-12">
-            <div className="bg-white p-10 rounded-3xl border border-brand-ink/5 shadow-sm">
-              <h3 className="text-2xl font-serif text-brand-ink mb-6">Lot Specifications & Features</h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-                <div className="space-y-4">
-                  <div className="flex items-start gap-4">
-                    <div className="w-2 h-2 rounded-full bg-brand-olive mt-2 shrink-0" />
-                    <p className="text-brand-ink/70 text-sm">All lots are fully titled and ready for immediate transfer.</p>
-                  </div>
-                  <div className="flex items-start gap-4">
-                    <div className="w-2 h-2 rounded-full bg-brand-olive mt-2 shrink-0" />
-                    <p className="text-brand-ink/70 text-sm">Pre-installed underground utilities (Water, Electricity, Fiber).</p>
-                  </div>
-                  <div className="flex items-start gap-4">
-                    <div className="w-2 h-2 rounded-full bg-brand-olive mt-2 shrink-0" />
-                    <p className="text-brand-ink/70 text-sm">Paved asphalt roads with concrete curbs and drainage.</p>
-                  </div>
-                </div>
-                <div className="space-y-4">
-                  <div className="flex items-start gap-4">
-                    <div className="w-2 h-2 rounded-full bg-brand-olive mt-2 shrink-0" />
-                    <p className="text-brand-ink/70 text-sm">Architectural guidelines to protect your investment value.</p>
-                  </div>
-                  <div className="flex items-start gap-4">
-                    <div className="w-2 h-2 rounded-full bg-brand-olive mt-2 shrink-0" />
-                    <p className="text-brand-ink/70 text-sm">Professional landscaping of all common areas and verges.</p>
-                  </div>
-                  <div className="flex items-start gap-4">
-                    <div className="w-2 h-2 rounded-full bg-brand-olive mt-2 shrink-0" />
-                    <p className="text-brand-ink/70 text-sm">Centralized sewage treatment system for Phase 1.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <div className="lg:col-span-1">
-            <LeadForm 
-              source="Map Page" 
-              title="Reserve Your Lot" 
-              subtitle="Interested in a specific lot? Contact us to place a 48-hour hold."
-            />
-          </div>
+     <div className="space-y-12">
+  <div className="bg-white p-10 rounded-3xl border border-brand-ink/5 shadow-sm">
+    <h3 className="text-2xl font-serif text-brand-ink mb-6">Lot Specifications & Features</h3>
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+      <div className="space-y-4">
+        <div className="flex items-start gap-4">
+          <div className="w-2 h-2 rounded-full bg-brand-olive mt-2 shrink-0" />
+          <p className="text-brand-ink/70 text-sm">All lots are fully titled and ready for immediate transfer.</p>
         </div>
+        <div className="flex items-start gap-4">
+          <div className="w-2 h-2 rounded-full bg-brand-olive mt-2 shrink-0" />
+          <p className="text-brand-ink/70 text-sm">Pre-installed underground utilities (Water, Electricity, Fiber).</p>
+        </div>
+        <div className="flex items-start gap-4">
+          <div className="w-2 h-2 rounded-full bg-brand-olive mt-2 shrink-0" />
+          <p className="text-brand-ink/70 text-sm">Paved asphalt roads with concrete curbs and drainage.</p>
+        </div>
+      </div>
+      <div className="space-y-4">
+        <div className="flex items-start gap-4">
+          <div className="w-2 h-2 rounded-full bg-brand-olive mt-2 shrink-0" />
+          <p className="text-brand-ink/70 text-sm">Architectural guidelines to protect your investment value.</p>
+        </div>
+        <div className="flex items-start gap-4">
+          <div className="w-2 h-2 rounded-full bg-brand-olive mt-2 shrink-0" />
+          <p className="text-brand-ink/70 text-sm">Professional landscaping of all common areas and verges.</p>
+        </div>
+        <div className="flex items-start gap-4">
+          <div className="w-2 h-2 rounded-full bg-brand-olive mt-2 shrink-0" />
+          <p className="text-brand-ink/70 text-sm">Centralized sewage treatment system for Phase 1.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <LeadForm 
+    source="Map Page" 
+    title="Reserve Your Lot" 
+    subtitle="Interested in a specific lot? Contact us to place a 48-hour hold."
+  />
+</div>
       </div>
     </div>
   );
