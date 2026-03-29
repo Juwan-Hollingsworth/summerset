@@ -39,9 +39,9 @@ export const BlogPage: React.FC = () => {
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-20">
           <div className="max-w-2xl">
             <span className="text-[10px] uppercase tracking-[0.4em] text-brand-olive font-bold mb-4 block">Insights & Updates</span>
-            <h1 className="text-4xl md:text-7xl font-serif text-brand-ink mb-6">The Hillside <span className="italic">Journal</span></h1>
+            <h1 className="text-4xl md:text-7xl font-serif text-brand-ink mb-6">The Somerset <span className="italic">Journal</span></h1>
             <p className="text-lg text-brand-ink/60 leading-relaxed">
-              Stay informed about construction progress, market insights, and the lifestyle that awaits you at Hillside Estates.
+              Stay informed about construction progress, market insights, and the lifestyle that awaits you at Somerset at Greenpark.
             </p>
           </div>
           

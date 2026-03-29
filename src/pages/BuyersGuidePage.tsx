@@ -123,7 +123,7 @@ export const BuyersGuidePage: React.FC = () => {
           <div className="bg-brand-ink p-12 rounded-[3rem] text-white">
             <h3 className="text-3xl font-serif mb-6">Download the Full Guide</h3>
             <p className="text-white/60 mb-10 leading-relaxed">
-              Our comprehensive Buyer's Guide includes detailed legal information, tax implications, and architectural guidelines for Hillside Estates.
+              Our comprehensive Buyer's Guide includes detailed legal information, tax implications, and architectural guidelines for Somerset at Greenpark.
             </p>
             <ul className="space-y-4 mb-10">
               <li className="flex items-center gap-3 text-sm">

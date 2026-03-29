@@ -34,7 +34,7 @@ export const VisionPage: React.FC = () => {
           <span className="text-[10px] uppercase tracking-[0.4em] text-brand-olive font-bold mb-4 block">The Vision</span>
           <h1 className="text-4xl md:text-7xl font-serif text-brand-ink mb-8">From Raw Beauty to <br /> <span className="italic">Architectural Excellence</span></h1>
           <p className="text-lg text-brand-ink/60 leading-relaxed">
-            We believe in preserving the natural essence of the land while introducing world-class design. Explore our vision for Hillside Estates through these conceptual comparisons.
+            We believe in preserving the natural essence of the land while introducing world-class design. Explore our vision for HSomerset at Greenpark through these conceptual comparisons.
           </p>
         </div>
 
@@ -98,7 +98,7 @@ export const VisionPage: React.FC = () => {
         <section className="mt-32 py-24 bg-brand-paper rounded-[3rem] text-center px-8">
           <h2 className="text-3xl md:text-5xl font-serif text-brand-ink mb-8">Ready to see it for yourself?</h2>
           <p className="text-brand-ink/60 max-w-xl mx-auto mb-12">
-            We offer private guided tours of the development site. Experience the views and the atmosphere of Hillside Estates in person.
+            We offer private guided tours of the development site. Experience the views and the atmosphere of Somerset at Greenpark in person.
           </p>
           <button className="px-10 py-5 bg-brand-ink text-white rounded-full font-bold uppercase tracking-widest text-xs hover:bg-brand-olive transition-all shadow-xl shadow-brand-ink/10">
             Book a Site Visit

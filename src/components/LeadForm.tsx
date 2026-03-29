@@ -61,7 +61,7 @@ export const LeadForm: React.FC<LeadFormProps> = ({
           <CheckCircle2 className="text-emerald-600" size={40} />
         </div>
         <h3 className="text-2xl font-serif text-brand-ink mb-2">Inquiry Received</h3>
-        <p className="text-brand-ink/60 mb-8">Thank you for your interest in Hillside Estates. One of our advisors will contact you shortly.</p>
+        <p className="text-brand-ink/60 mb-8">Thank you for your interest in Somerset at Greenpark. One of our advisors will contact you shortly.</p>
         <button 
           onClick={() => setStatus('idle')}
           className="text-brand-olive font-semibold hover:underline"

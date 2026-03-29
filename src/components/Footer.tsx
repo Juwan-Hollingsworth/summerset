@@ -9,7 +9,7 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-20">
           <div className="space-y-8">
             <Link to="/" className="flex flex-col">
-              <span className="text-3xl font-serif tracking-tighter text-white leading-none">Sommerset</span>
+              <span className="text-3xl font-serif tracking-tighter text-white leading-none">Somerset</span>
               <span className="text-[10px] uppercase tracking-[0.4em] text-brand-olive font-bold mt-1">Estates Jamaica</span>
             </Link>
             <p className="text-white/40 text-sm leading-relaxed">
@@ -34,7 +34,7 @@ export const Footer: React.FC = () => {
               <li><Link to="/map" className="text-white/60 hover:text-white transition-colors text-sm">Interactive Site Plan</Link></li>
               <li><Link to="/vision" className="text-white/60 hover:text-white transition-colors text-sm">The Vision & Gallery</Link></li>
               <li><Link to="/guide" className="text-white/60 hover:text-white transition-colors text-sm">Buyer's Guide</Link></li>
-              <li><Link to="/blog" className="text-white/60 hover:text-white transition-colors text-sm">Sommerset Journal</Link></li>
+              <li><Link to="/blog" className="text-white/60 hover:text-white transition-colors text-sm">Somerset Journal</Link></li>
               <li><a href="#" className="text-white/60 hover:text-white transition-colors text-sm">Contact Us</a></li>
             </ul>
           </div>
@@ -53,7 +53,7 @@ export const Footer: React.FC = () => {
                 <Mail size={18} className="text-brand-olive shrink-0" />
                 <div>
                   <p className="text-xs text-white/40 uppercase tracking-widest mb-1">Email</p>
-                  <p className="text-sm">invest@Sommerset.com</p>
+                  <p className="text-sm">invest@Somerset.com</p>
                 </div>
               </li>
               <li className="flex items-start gap-4">
@@ -79,7 +79,7 @@ export const Footer: React.FC = () => {
 
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-[10px] uppercase tracking-widest text-white/20">
-            © 2026 Sommerset at Greenpark. All Rights Reserved. | Powered by CyBrWerks.io
+            © 2026 Somerset at Greenpark. All Rights Reserved. | Powered by CyBrWerks.io
           </p>
           <p className="text-[10px] uppercase tracking-widest text-white/20">
             Designed for Excellence

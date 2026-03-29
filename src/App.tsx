@@ -21,14 +21,14 @@ const SEO = () => {
   
   useEffect(() => {
     const titles: Record<string, string> = {
-      '/': 'Sommerset at Greenpark | Luxury Land Development',
-      '/map': 'Interactive Site Plan | Sommerset at Greenpark',
-      '/vision': 'The Vision & Gallery | Sommerset at Greenpark',
-      '/guide': 'Buyer\'s Guide | Sommerset at Greenpark',
-      '/blog': 'Sommerset Journal | Real Estate Insights',
+      '/': 'Somerset at Greenpark | Luxury Land Development',
+      '/map': 'Interactive Site Plan | Somerset at Greenpark',
+      '/vision': 'The Vision & Gallery | Somerset at Greenpark',
+      '/guide': 'Buyer\'s Guide | Somerset at Greenpark',
+      '/blog': 'Somerset Journal | Real Estate Insights',
     };
     
-    document.title = titles[pathname] || 'Sommerset at Greenpark';
+    document.title = titles[pathname] || 'Somerset at Greenpark';
   }, [pathname]);
 
   return null;
@@ -58,7 +58,7 @@ export default function App() {
         {JSON.stringify({
           "@context": "https://schema.org/",
           "@type": "RealEstateListing",
-          "name": "Sommerset at Greenpark",
+          "name": "Somerset at Greenpark",
           "description": "Premium land development project in St. Ann, Jamaica.",
           "address": {
             "@type": "PostalAddress",

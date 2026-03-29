@@ -44,7 +44,7 @@ export const Navbar: React.FC = () => {
           <span className={cn(
             "text-2xl font-serif tracking-tighter leading-none transition-colors",
             isTransparentMode ? "text-white" : "text-brand-ink"
-          )}>Sommerset</span>
+          )}>Somerset</span>
           <span className="text-[10px] uppercase tracking-[0.4em] text-brand-olive font-bold mt-1">at Greenpark</span>
         </Link>
 

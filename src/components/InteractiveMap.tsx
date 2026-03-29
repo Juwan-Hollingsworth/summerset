@@ -154,7 +154,7 @@ export const InteractiveMap: React.FC = () => {
                     <h3 className="text-2xl font-serif text-brand-ink mb-1">Lot {selectedLot.number}</h3>
                     <div className="flex items-center gap-2 text-brand-ink/60 text-sm">
                       <MapPin size={14} />
-                      <span>Sommerset at Greenpark, Phase 1</span>
+                      <span>Somerset at Greenpark, Phase 1</span>
                     </div>
                   </div>
                   <div className={cn(

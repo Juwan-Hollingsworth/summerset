@@ -13,7 +13,7 @@ export const Home: React.FC = () => {
         <div className="absolute inset-0 z-0">
           <img 
             src="/home-hero.png" 
-            alt="Hillside Jamaica" 
+            alt="Somerset at Greenpark" 
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
           />
@@ -34,7 +34,7 @@ export const Home: React.FC = () => {
               <span className="italic">Heart of Paradise</span>
             </h1>
             <p className="text-lg md:text-xl text-white/80 max-w-2xl mx-auto mb-12 font-light leading-relaxed">
-              Discover Hillside Estates—an exclusive collection of luxury residential lots overlooking the Caribbean Sea. Secure your piece of Jamaica today.
+              Discover Somerset at Greenpark—an exclusive collection of luxury residential lots overlooking the Caribbean Sea. Secure your piece of Jamaica today.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
               <Link 
@@ -71,7 +71,7 @@ export const Home: React.FC = () => {
                 <TrendingUp size={28} />
               </div>
               <h3 className="text-2xl font-serif text-brand-ink">High Appreciation</h3>
-              <p className="text-brand-ink/60 leading-relaxed">Located in a high-growth corridor, Hillside Estates offers significant capital gains potential for early investors.</p>
+              <p className="text-brand-ink/60 leading-relaxed">Located in a high-growth corridor, Somerset at Greenpark offers significant capital gains potential for early investors.</p>
             </div>
             <div className="space-y-6">
               <div className="w-14 h-14 bg-brand-paper rounded-2xl flex items-center justify-center text-brand-olive">
@@ -117,7 +117,7 @@ export const Home: React.FC = () => {
               Build Your Legacy on the <br /> <span className="italic">North Coast</span>
             </h2>
             <p className="text-lg text-brand-ink/70 leading-relaxed">
-              With lots starting from $110,000 USD, Hillside Estates provides an accessible entry point into the luxury Jamaican real estate market. Each lot is pre-serviced with water, electricity, and high-speed fiber optics.
+              With lots starting from $110,000 USD, Somerset at Greenpark provides an accessible entry point into the luxury Jamaican real estate market. Each lot is pre-serviced with water, electricity, and high-speed fiber optics.
             </p>
             <div className="flex flex-col gap-4">
               <div className="flex items-center gap-4 p-4 bg-white rounded-2xl border border-brand-ink/5 shadow-sm">

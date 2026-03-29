@@ -12,7 +12,7 @@ export const MapPage: React.FC = () => {
             <span className="text-[10px] uppercase tracking-[0.4em] text-brand-olive font-bold mb-4 block">Site Selection</span>
             <h1 className="text-4xl md:text-6xl font-serif text-brand-ink mb-6">Explore the <span className="italic">Master Plan</span></h1>
             <p className="text-lg text-brand-ink/60 leading-relaxed">
-              Our interactive site plan allows you to visualize the layout of Hillside Estates. Click on any lot to view its specific dimensions, pricing, and current status.
+              Our interactive site plan allows you to visualize the layout of Somerset at Greenpark. Click on any lot to view its specific dimensions, pricing, and current status.
             </p>
           </div>
           
