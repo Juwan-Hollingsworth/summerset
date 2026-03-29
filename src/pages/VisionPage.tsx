@@ -12,7 +12,7 @@ const GALLERY_ITEMS = [
   },
   {
     id: 2,
-    title: "Hillside Sanctuary",
+    title: "Somerset Estates at Greenpark",
     current: "https://picsum.photos/seed/hill-current/800/600",
     concept: "https://picsum.photos/seed/hill-concept/800/600",
     description: "Modern architectural concepts designed to blend seamlessly with the natural topography."
@@ -34,7 +34,7 @@ export const VisionPage: React.FC = () => {
           <span className="text-[10px] uppercase tracking-[0.4em] text-brand-olive font-bold mb-4 block">The Vision</span>
           <h1 className="text-4xl md:text-7xl font-serif text-brand-ink mb-8">From Raw Beauty to <br /> <span className="italic">Architectural Excellence</span></h1>
           <p className="text-lg text-brand-ink/60 leading-relaxed">
-            We believe in preserving the natural essence of the land while introducing world-class design. Explore our vision for HSomerset at Greenpark through these conceptual comparisons.
+            We believe in preserving the natural essence of the land while introducing world-class design. Explore our vision for Somerset at Greenpark through these conceptual comparisons.
           </p>
         </div>
 

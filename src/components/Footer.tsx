@@ -9,8 +9,8 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-20">
           <div className="space-y-8">
             <Link to="/" className="flex flex-col">
-              <span className="text-3xl font-serif tracking-tighter text-white leading-none">Somerset</span>
-              <span className="text-[10px] uppercase tracking-[0.4em] text-brand-olive font-bold mt-1">Estates Jamaica</span>
+              <span className="text-3xl font-serif tracking-tighter text-white leading-none">Somerset Estate</span>
+              <span className="text-[10px] uppercase tracking-[0.4em] text-brand-olive font-bold mt-1">at Greenpark</span>
             </Link>
             <p className="text-white/40 text-sm leading-relaxed">
               A premier land development project dedicated to sustainable luxury and architectural excellence on Jamaica's North Coast.
